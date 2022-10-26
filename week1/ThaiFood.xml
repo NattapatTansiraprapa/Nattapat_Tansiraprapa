@@ -1,0 +1,52 @@
+<Food>
+    <ThaiFood>
+        <FoodID>001</FoodID>
+        <FoodName>ข้าวหน้าปลาไหล</FoodName>
+        <price>200 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>002</FoodID>
+        <FoodName>ไข่เจียวปู</FoodName>
+        <price>80 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>003</FoodID>
+        <FoodName>แกะต้มน้ำปลา</FoodName>
+        <price>500 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>004</FoodID>
+        <FoodName>แลนทอด</FoodName>
+        <price>70 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>005</FoodID>
+        <FoodName>คะน้าหมูกรอบ</FoodName>
+        <price>60บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>006</FoodID>
+        <FoodName>หมูคั่วเกลือ</FoodName>
+        <price>70 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>007</FoodID>
+        <FoodName>ต้มยำปลากุเลา</FoodName>
+        <price>150 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>008</FoodID>
+        <FoodName>ผัดเผ็ดหมู</FoodName>
+        <price>40บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>009</FoodID>
+        <FoodName>ไก่แช่บ๊วย</FoodName>
+        <price>100 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>010</FoodID>
+        <FoodName>เมนูลับ</FoodName>
+        <price>100 บาท</price>
+    </ThaiFood>
+</Food>
