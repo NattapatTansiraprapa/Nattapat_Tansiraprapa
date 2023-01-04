@@ -25,12 +25,20 @@
 
             for(i=0;i<obj.length;i++){
                 temp += 
-                '<tr><td><h2>'+obj[i].movieName+'</h2><br>'+
-                "ความยาวของหนัง "+obj[i].movieLength+' นาที'+'<br>'+
-                '<iframe src=http://www.youtube.com/embed/' +obj[i].trailer + '></iframe>'+'<br>'+
-                "ผู้กำกับ "+obj[i].director+'<br>'+
-                "ประเภทของหนัง "+obj[i].category+'<br>'+
-                '<img width25% src="' +obj[i].picture + '">'+'<br>'+
+                '<tr><td><h2 style=color:gold>'+obj[i].movieName+'</h2><br>'+
+                "<b>ความยาวของหนัง "+obj[i].movieLength+' นาที'+'</b><br><br><br>'+
+                '<iframe width = 560 height =315 src=http://www.youtube.com/embed/'+obj[i].trailer +'></iframe>'+"&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+
+                '<img width=38.11% src="' +obj[i].picture + '">'+'<br>'+
+                "กำกับโดย "+obj[i].director+'<br>'+'----------------------------------------------------------------------------------------------------'+'<br>'+
+                "ประเภทของหนัง "+obj[i].category+'<br>'+'----------------------------------------------------------------------------------------------------'+'<br>'+
+                "รีวิว "+obj[i].review.review+'<br>'+'----------------------------------------------------------------------------------------------------'+'<br>'+
+                "การดำเนินเรื่อง "+obj[i].review.score.screenPlay+" คะแนน"+'<br>'+
+                "บทการแสดง "+obj[i].review.score.playing+" คะแนน"+'<br>'+
+                "เพลง "+obj[i].review.score.music+" คะแนน"+'<br>'+
+                "ความสามารถการแสดง "+obj[i].review.score.actorSkills+" คะแนน"+'<br>'+
+                "คุณภาพของภาพ "+obj[i].review.score.graphics+" คะแนน"+'<br>'+
+                "คะแนนเฉลี่ย "+obj[i].review.score.average+" คะแนน"+'<br>'+
+                '<hr color ="white";>'
                 '</td></tr>';
 
 
