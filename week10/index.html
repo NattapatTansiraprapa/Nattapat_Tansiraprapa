@@ -10,7 +10,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
   <body>
-    <div class="container" id="display"></div>
+    <div class="container" id="display">
+    </div>
     <script>
         let xhttp =new XMLHttpRequest();
         xhttp.open("GET","http://localhost:3000/movieReview")
@@ -26,10 +27,11 @@
                 temp += 
                 '<tr><td><h2>'+obj[i].movieName+'</h2><br>'+
                 "ความยาวของหนัง "+obj[i].movieLength+' นาที'+'<br>'+
-                '<iframe src="' +obj[i].trailer + '"></iframe></td>'+
-                +obj[i].review+'<br>'+
-                '</td>'
-                '</tr>';
+                '<iframe src=http://www.youtube.com/embed/' +obj[i].trailer + '></iframe>'+'<br>'+
+                "ผู้กำกับ "+obj[i].director+'<br>'+
+                "ประเภทของหนัง "+obj[i].category+'<br>'+
+                '<img width25% src="' +obj[i].picture + '">'+'<br>'+
+                '</td></tr>';
 
 
             }
